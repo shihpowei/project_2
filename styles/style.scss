@@ -168,6 +168,7 @@ background-color: rgb(168, 167, 167);
             flex-wrap: wrap;
             li{
                  flex-basis:100px;
+                  margin: 1rem 0;
                  
                 a{
                     color: black;
@@ -175,6 +176,7 @@ background-color: rgb(168, 167, 167);
                    font-size: 1.35rem;
                    color: white;
                    font-weight: 600;
+                  
                   
                 }
             }
@@ -184,7 +186,7 @@ background-color: rgb(168, 167, 167);
         a{
            font-size:50px;
            color: black;
-            margin: 0 1rem;
+            margin: 0 1.5rem;
         }
     }
 }

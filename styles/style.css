@@ -233,6 +233,7 @@ footer nav ul {
 footer nav ul li {
   -ms-flex-preferred-size: 100px;
       flex-basis: 100px;
+  margin: 1rem 0;
 }
 
 footer nav ul li a {
@@ -246,7 +247,7 @@ footer nav ul li a {
 footer section.links a {
   font-size: 50px;
   color: black;
-  margin: 0 1rem;
+  margin: 0 1.5rem;
 }
 
 @media screen and (max-width: 600px) {
