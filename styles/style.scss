@@ -13,6 +13,11 @@ header{
    display: flex;
    align-items: center;
    flex-wrap: wrap;
+   position: sticky;
+   top: 0;
+   z-index: 5;
+   background-color: white;
+    box-shadow: 5px 5px 5px rgba(68, 68, 68, 0.6);
     div.logo{
         display: flex;
         align-items: center;
@@ -190,6 +195,25 @@ background-color: rgb(168, 167, 167);
         }
     }
 }
+
+
+/* width */
+::-webkit-scrollbar {
+  width: 10px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  background: #f1f1f1;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: #2F8BBE;
+}
+
+
+
 
 @media screen and (max-width:600px){
     header{

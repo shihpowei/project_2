@@ -19,6 +19,13 @@ header {
           align-items: center;
   -ms-flex-wrap: wrap;
       flex-wrap: wrap;
+  position: -webkit-sticky;
+  position: sticky;
+  top: 0;
+  z-index: 5;
+  background-color: white;
+  -webkit-box-shadow: 5px 5px 5px rgba(68, 68, 68, 0.6);
+          box-shadow: 5px 5px 5px rgba(68, 68, 68, 0.6);
 }
 
 header div.logo {
@@ -248,6 +255,21 @@ footer section.links a {
   font-size: 50px;
   color: black;
   margin: 0 1.5rem;
+}
+
+/* width */
+::-webkit-scrollbar {
+  width: 10px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  background: #f1f1f1;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: #2F8BBE;
 }
 
 @media screen and (max-width: 600px) {
